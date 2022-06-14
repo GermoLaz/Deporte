@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @Builder
-public class BasketballLiveMatchesDTO {
+public class BasketballLiveMatches {
     @JsonAlias("Away Score")
     private Integer awayScore;
     @JsonAlias("Away Team")

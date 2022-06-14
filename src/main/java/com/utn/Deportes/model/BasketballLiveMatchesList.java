@@ -1,5 +1,6 @@
 package com.utn.Deportes.model;
 
+import com.utn.Deportes.model.BasketballLiveMatches;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,6 +12,6 @@ import java.util.List;
 @AllArgsConstructor
 @Data
 @Builder
-public class BasketballLiveMatchesListDTO {
-    private List<BasketballLiveMatchesDTO> basketballLiveMatchesDTOList;
+public class BasketballLiveMatchesList {
+    private List<BasketballLiveMatches> matches;
 }
